@@ -48,8 +48,8 @@ export function StepVideo({ link, id }) {
           <a href={link} download>Download</a>
         </Button>
       </div>
-      <video controls width={1920} height={1080}>
-        <source src={link} />
+      <video controls width={1920} height={1080} crossOrigin="anonymous">
+        <source src={link} type="video/mp4" />
         Your browser does not support the html video tag
       </video>
     </div>
