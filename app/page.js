@@ -5,7 +5,7 @@ import StepImage from "@/components/StepImage";
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col gap-5 justify-center items-center py-20 max-w-screen-lg mx-auto px-5">
+      <main className="flex flex-col gap-5 justify-center items-center py-20 max-w-screen-lg mx-auto px-2">
         <h1 className="text-3xl font-bold">ChadGPT Showcase</h1>
 
         {steps.map((step) => {
@@ -16,7 +16,7 @@ export default function Home() {
           }
         })}
       </main>
-      <footer className="flex justify-center items-center pb-10">
+      <footer className="flex justify-center items-center pb-10 px-2">
         <h1>website by&nbsp;
           <a href="https://github.com/nabeelv7" target="_blank" className="underline">nabeel</a>
         </h1>
