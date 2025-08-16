@@ -30,7 +30,7 @@ export default function StepImage({ link, id }) {
                     height={1080}
                     className={`object-cover rounded transition-opacity duration-500 ${loading ? "opacity-0" : "opacity-100"
                         }`}
-                    onLoadingComplete={() => setLoading(false)}
+                    onLoad={() => setLoading(false)}
                 />
             </div>
         </div>
