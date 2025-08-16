@@ -1,6 +1,6 @@
-import Image from "next/image";
 import steps from "./steps";
 import { Button } from "@/components/ui/button";
+import StepImage from "@/components/StepImage";
 
 export default function Home() {
   return (
@@ -25,19 +25,6 @@ export default function Home() {
   );
 }
 
-export function StepImage({ link, id }) {
-  return (
-    <div>
-      <div className="flex items-center justify-between py-5 w-full">
-        <h1 className="text-2xl font-medium">{id}.</h1>
-        <Button asChild>
-          <a href={link} download>Download</a>
-        </Button>
-      </div>
-      <Image src={link} width={1920} height={1080} alt={`Step number ${id}`} />
-    </div>
-  )
-}
 
 export function StepVideo({ link, id }) {
   return (
