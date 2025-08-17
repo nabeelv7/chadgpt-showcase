@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <>
       <main className="flex flex-col gap-5 justify-center items-center py-20 max-w-screen-lg mx-auto px-2">
-        <h1 className="text-3xl font-bold">ChadGPT Showcase</h1>
+        <h1 className="text-3xl font-bold">
+          <a href="https://chadgpt-prototype.vercel.app/" className="hover:underline">ChadGPT</a>
+          &nbsp;Showcase</h1>
 
         {steps.map((step) => {
           if (step.type == "image") {
