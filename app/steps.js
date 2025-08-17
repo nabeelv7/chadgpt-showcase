@@ -85,6 +85,26 @@ const steps = [
         type: "image",
         link: "/17.png",
     },
+    {
+        id: 18,
+        type: "image",
+        link: "/18.png",
+    },
+    {
+        id: 19,
+        type: "image",
+        link: "/19.png",
+    },
+    {
+        id: 20,
+        type: "image",
+        link: "/20.png",
+    },
+    {
+        id: 21,
+        type: "image",
+        link: "/21.png",
+    },
 ]
 
 export default steps;
